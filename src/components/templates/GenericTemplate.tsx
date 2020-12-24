@@ -264,11 +264,11 @@ const GenericTemplate: React.FC<GenericTemplateProps> = ({
                         noWrap
                         className={classes.pageTitle}
                         >
-                        {title}
+                            {title}
                         </Typography>
                         {children}
                         <Box pt={4}>
-                        <Copyright />
+                            <Copyright />
                         </Box>
                     </Container>
                 </main>
